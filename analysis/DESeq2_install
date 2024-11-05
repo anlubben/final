@@ -1,0 +1,25 @@
+#!/bin/bash
+
+
+###installing DESeq2
+
+module load Anaconda3/2024.06-1
+#load anaconda
+
+source $(conda info --base)/etc/profile.d/conda.sh
+#init conda
+
+conda config --add channels conda-forge
+conda config --add channels bioconda
+#conda forge channels
+
+if ! conda info --envs | grep -q "r_deseq2"; then
+conda create -y -n r_deseq2 r-base=4.0
+fi
+#create conda environment
+
+conda activate r_deseq2
+#activate environment
+
+conda install -y -c bioconda bioconductor-deseq2
+#install DESeq2

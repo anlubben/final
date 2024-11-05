@@ -1,0 +1,247 @@
+Channels:
+ - bioconda
+ - conda-forge
+ - defaults
+Platform: linux-64
+Collecting package metadata (repodata.json): ...working... done
+Solving environment: ...working... done
+
+## Package Plan ##
+
+  environment location: /project/stuckert/anlubben/.conda/envs/r_deseq2
+
+  added / updated specs:
+    - r-base=4.0
+
+
+The following packages will be downloaded:
+
+    package                    |            build
+    ---------------------------|-----------------
+    _libgcc_mutex-0.1          |      conda_forge           3 KB  conda-forge
+    _openmp_mutex-4.5          |            2_gnu          23 KB  conda-forge
+    _r-mutex-1.0.1             |      anacondar_1           3 KB  conda-forge
+    binutils_impl_linux-64-2.43|       h4bf12b8_2         5.4 MB  conda-forge
+    bwidget-1.9.14             |       ha770c72_1         120 KB  conda-forge
+    bzip2-1.0.8                |       h4bc722e_7         247 KB  conda-forge
+    c-ares-1.34.2              |       heb4867d_0         201 KB  conda-forge
+    ca-certificates-2024.8.30  |       hbcca054_0         155 KB  conda-forge
+    cairo-1.16.0               |    ha61ee94_1012         1.5 MB  conda-forge
+    curl-7.86.0                |       h2283fc2_1          91 KB  conda-forge
+    expat-2.6.3                |       h5888daf_0         135 KB  conda-forge
+    font-ttf-dejavu-sans-mono-2.37|       hab24e00_0         388 KB  conda-forge
+    font-ttf-inconsolata-3.000 |       h77eed37_0          94 KB  conda-forge
+    font-ttf-source-code-pro-2.038|       h77eed37_0         684 KB  conda-forge
+    font-ttf-ubuntu-0.83       |       h77eed37_3         1.5 MB  conda-forge
+    fontconfig-2.14.2          |       h14ed4e7_0         266 KB  conda-forge
+    fonts-conda-ecosystem-1    |                0           4 KB  conda-forge
+    fonts-conda-forge-1        |                0           4 KB  conda-forge
+    freetype-2.12.1            |       h267a509_2         620 KB  conda-forge
+    fribidi-1.0.10             |       h36c2ea0_0         112 KB  conda-forge
+    gcc_impl_linux-64-14.2.0   |       h6b349bd_1        69.1 MB  conda-forge
+    gettext-0.22.5             |       he02047a_3         468 KB  conda-forge
+    gettext-tools-0.22.5       |       he02047a_3         2.6 MB  conda-forge
+    gfortran_impl_linux-64-14.2.0|       hc73f493_1        16.4 MB  conda-forge
+    graphite2-1.3.13           |    h59595ed_1003          95 KB  conda-forge
+    gsl-2.7                    |       he838d99_0         3.2 MB  conda-forge
+    gxx_impl_linux-64-14.2.0   |       h2c03514_1        13.7 MB  conda-forge
+    harfbuzz-6.0.0             |       h8e241bc_0         1.2 MB  conda-forge
+    icu-70.1                   |       h27087fc_0        13.5 MB  conda-forge
+    jpeg-9e                    |       h0b41bf4_3         235 KB  conda-forge
+    kernel-headers_linux-64-3.10.0|      he073ed8_17         923 KB  conda-forge
+    keyutils-1.6.1             |       h166bdaf_0         115 KB  conda-forge
+    krb5-1.19.3                |       h08a2579_0         1.4 MB  conda-forge
+    ld_impl_linux-64-2.43      |       h712a8e2_2         654 KB  conda-forge
+    lerc-4.0.0                 |       h27087fc_0         275 KB  conda-forge
+    libasprintf-0.22.5         |       he8f35ee_3          42 KB  conda-forge
+    libasprintf-devel-0.22.5   |       he8f35ee_3          33 KB  conda-forge
+    libblas-3.9.0              |25_linux64_openblas          15 KB  conda-forge
+    libcblas-3.9.0             |25_linux64_openblas          15 KB  conda-forge
+    libcurl-7.86.0             |       h2283fc2_1         351 KB  conda-forge
+    libdeflate-1.14            |       h166bdaf_0          81 KB  conda-forge
+    libedit-3.1.20191231       |       he28a2e2_2         121 KB  conda-forge
+    libev-4.33                 |       hd590300_2         110 KB  conda-forge
+    libexpat-2.6.3             |       h5888daf_0          72 KB  conda-forge
+    libffi-3.4.2               |       h7f98852_5          57 KB  conda-forge
+    libgcc-14.2.0              |       h77fa898_1         829 KB  conda-forge
+    libgcc-devel_linux-64-14.2.0|     h41c2201_101         2.6 MB  conda-forge
+    libgcc-ng-14.2.0           |       h69a702a_1          53 KB  conda-forge
+    libgettextpo-0.22.5        |       he02047a_3         167 KB  conda-forge
+    libgettextpo-devel-0.22.5  |       he02047a_3          36 KB  conda-forge
+    libgfortran-14.2.0         |       h69a702a_1          53 KB  conda-forge
+    libgfortran-ng-14.2.0      |       h69a702a_1          53 KB  conda-forge
+    libgfortran5-14.2.0        |       hd5240d6_1         1.4 MB  conda-forge
+    libglib-2.78.1             |       hebfc3b9_0         2.6 MB  conda-forge
+    libgomp-14.2.0             |       h77fa898_1         450 KB  conda-forge
+    libiconv-1.17              |       hd590300_2         689 KB  conda-forge
+    liblapack-3.9.0            |25_linux64_openblas          15 KB  conda-forge
+    libnghttp2-1.64.0          |       h161d5f1_0         632 KB  conda-forge
+    libopenblas-0.3.28         |pthreads_h94d23a6_0         5.3 MB  conda-forge
+    libpng-1.6.44              |       hadc24fc_0         284 KB  conda-forge
+    libsanitizer-14.2.0        |       h2a3dede_1         4.3 MB  conda-forge
+    libssh2-1.11.0             |       h0841786_0         265 KB  conda-forge
+    libstdcxx-14.2.0           |       hc0a3c3a_1         3.7 MB  conda-forge
+    libstdcxx-devel_linux-64-14.2.0|     h41c2201_101        12.9 MB  conda-forge
+    libstdcxx-ng-14.2.0        |       h4852527_1          53 KB  conda-forge
+    libtiff-4.4.0              |       h82bc61c_5         473 KB  conda-forge
+    libuuid-2.38.1             |       h0b41bf4_0          33 KB  conda-forge
+    libwebp-base-1.4.0         |       hd590300_0         429 KB  conda-forge
+    libxcb-1.13                |    h7f98852_1004         391 KB  conda-forge
+    libxml2-2.10.3             |       hca2bb57_4         697 KB  conda-forge
+    libzlib-1.3.1              |       hb9d3cd8_2          60 KB  conda-forge
+    make-4.4.1                 |       hb9d3cd8_2         501 KB  conda-forge
+    ncurses-6.5                |       he02047a_1         868 KB  conda-forge
+    openssl-3.3.2              |       hb9d3cd8_0         2.8 MB  conda-forge
+    pango-1.50.14              |       hd33c08f_0         427 KB  conda-forge
+    pcre2-10.40                |       hc3806b6_0         2.3 MB  conda-forge
+    pixman-0.43.2              |       h59595ed_0         378 KB  conda-forge
+    pthread-stubs-0.4          |    hb9d3cd8_1002           8 KB  conda-forge
+    r-base-4.0.5               |       hb87df5d_8        23.8 MB  conda-forge
+    readline-8.2               |       h8228510_1         275 KB  conda-forge
+    sed-4.8                    |       he412f7d_0         264 KB  conda-forge
+    sysroot_linux-64-2.17      |      h4a8ded7_17        14.4 MB  conda-forge
+    tk-8.6.13                  |noxft_h4845f30_101         3.2 MB  conda-forge
+    tktable-2.10               |       h8bc8fbc_6          89 KB  conda-forge
+    tzdata-2024b               |       hc8b5060_0         119 KB  conda-forge
+    xorg-kbproto-1.0.7         |    hb9d3cd8_1003          30 KB  conda-forge
+    xorg-libice-1.0.10         |       h7f98852_0          58 KB  conda-forge
+    xorg-libsm-1.2.3           |    hd9c2040_1000          26 KB  conda-forge
+    xorg-libx11-1.8.4          |       h0b41bf4_0         810 KB  conda-forge
+    xorg-libxau-1.0.11         |       hb9d3cd8_1          14 KB  conda-forge
+    xorg-libxdmcp-1.1.5        |       hb9d3cd8_0          19 KB  conda-forge
+    xorg-libxext-1.3.4         |       h0b41bf4_2          49 KB  conda-forge
+    xorg-libxrender-0.9.10     |    h7f98852_1003          32 KB  conda-forge
+    xorg-libxt-1.3.0           |       hd590300_0         371 KB  conda-forge
+    xorg-renderproto-0.11.1    |    hb9d3cd8_1003          12 KB  conda-forge
+    xorg-xextproto-7.3.0       |    hb9d3cd8_1004          30 KB  conda-forge
+    xorg-xproto-7.0.31         |    hb9d3cd8_1008          72 KB  conda-forge
+    xz-5.2.6                   |       h166bdaf_0         409 KB  conda-forge
+    zstd-1.5.6                 |       ha6fb4c9_0         542 KB  conda-forge
+    ------------------------------------------------------------
+                                           Total:       226.4 MB
+
+The following NEW packages will be INSTALLED:
+
+  _libgcc_mutex      conda-forge/linux-64::_libgcc_mutex-0.1-conda_forge 
+  _openmp_mutex      conda-forge/linux-64::_openmp_mutex-4.5-2_gnu 
+  _r-mutex           conda-forge/noarch::_r-mutex-1.0.1-anacondar_1 
+  binutils_impl_lin~ conda-forge/linux-64::binutils_impl_linux-64-2.43-h4bf12b8_2 
+  bwidget            conda-forge/linux-64::bwidget-1.9.14-ha770c72_1 
+  bzip2              conda-forge/linux-64::bzip2-1.0.8-h4bc722e_7 
+  c-ares             conda-forge/linux-64::c-ares-1.34.2-heb4867d_0 
+  ca-certificates    conda-forge/linux-64::ca-certificates-2024.8.30-hbcca054_0 
+  cairo              conda-forge/linux-64::cairo-1.16.0-ha61ee94_1012 
+  curl               conda-forge/linux-64::curl-7.86.0-h2283fc2_1 
+  expat              conda-forge/linux-64::expat-2.6.3-h5888daf_0 
+  font-ttf-dejavu-s~ conda-forge/noarch::font-ttf-dejavu-sans-mono-2.37-hab24e00_0 
+  font-ttf-inconsol~ conda-forge/noarch::font-ttf-inconsolata-3.000-h77eed37_0 
+  font-ttf-source-c~ conda-forge/noarch::font-ttf-source-code-pro-2.038-h77eed37_0 
+  font-ttf-ubuntu    conda-forge/noarch::font-ttf-ubuntu-0.83-h77eed37_3 
+  fontconfig         conda-forge/linux-64::fontconfig-2.14.2-h14ed4e7_0 
+  fonts-conda-ecosy~ conda-forge/noarch::fonts-conda-ecosystem-1-0 
+  fonts-conda-forge  conda-forge/noarch::fonts-conda-forge-1-0 
+  freetype           conda-forge/linux-64::freetype-2.12.1-h267a509_2 
+  fribidi            conda-forge/linux-64::fribidi-1.0.10-h36c2ea0_0 
+  gcc_impl_linux-64  conda-forge/linux-64::gcc_impl_linux-64-14.2.0-h6b349bd_1 
+  gettext            conda-forge/linux-64::gettext-0.22.5-he02047a_3 
+  gettext-tools      conda-forge/linux-64::gettext-tools-0.22.5-he02047a_3 
+  gfortran_impl_lin~ conda-forge/linux-64::gfortran_impl_linux-64-14.2.0-hc73f493_1 
+  graphite2          conda-forge/linux-64::graphite2-1.3.13-h59595ed_1003 
+  gsl                conda-forge/linux-64::gsl-2.7-he838d99_0 
+  gxx_impl_linux-64  conda-forge/linux-64::gxx_impl_linux-64-14.2.0-h2c03514_1 
+  harfbuzz           conda-forge/linux-64::harfbuzz-6.0.0-h8e241bc_0 
+  icu                conda-forge/linux-64::icu-70.1-h27087fc_0 
+  jpeg               conda-forge/linux-64::jpeg-9e-h0b41bf4_3 
+  kernel-headers_li~ conda-forge/noarch::kernel-headers_linux-64-3.10.0-he073ed8_17 
+  keyutils           conda-forge/linux-64::keyutils-1.6.1-h166bdaf_0 
+  krb5               conda-forge/linux-64::krb5-1.19.3-h08a2579_0 
+  ld_impl_linux-64   conda-forge/linux-64::ld_impl_linux-64-2.43-h712a8e2_2 
+  lerc               conda-forge/linux-64::lerc-4.0.0-h27087fc_0 
+  libasprintf        conda-forge/linux-64::libasprintf-0.22.5-he8f35ee_3 
+  libasprintf-devel  conda-forge/linux-64::libasprintf-devel-0.22.5-he8f35ee_3 
+  libblas            conda-forge/linux-64::libblas-3.9.0-25_linux64_openblas 
+  libcblas           conda-forge/linux-64::libcblas-3.9.0-25_linux64_openblas 
+  libcurl            conda-forge/linux-64::libcurl-7.86.0-h2283fc2_1 
+  libdeflate         conda-forge/linux-64::libdeflate-1.14-h166bdaf_0 
+  libedit            conda-forge/linux-64::libedit-3.1.20191231-he28a2e2_2 
+  libev              conda-forge/linux-64::libev-4.33-hd590300_2 
+  libexpat           conda-forge/linux-64::libexpat-2.6.3-h5888daf_0 
+  libffi             conda-forge/linux-64::libffi-3.4.2-h7f98852_5 
+  libgcc             conda-forge/linux-64::libgcc-14.2.0-h77fa898_1 
+  libgcc-devel_linu~ conda-forge/noarch::libgcc-devel_linux-64-14.2.0-h41c2201_101 
+  libgcc-ng          conda-forge/linux-64::libgcc-ng-14.2.0-h69a702a_1 
+  libgettextpo       conda-forge/linux-64::libgettextpo-0.22.5-he02047a_3 
+  libgettextpo-devel conda-forge/linux-64::libgettextpo-devel-0.22.5-he02047a_3 
+  libgfortran        conda-forge/linux-64::libgfortran-14.2.0-h69a702a_1 
+  libgfortran-ng     conda-forge/linux-64::libgfortran-ng-14.2.0-h69a702a_1 
+  libgfortran5       conda-forge/linux-64::libgfortran5-14.2.0-hd5240d6_1 
+  libglib            conda-forge/linux-64::libglib-2.78.1-hebfc3b9_0 
+  libgomp            conda-forge/linux-64::libgomp-14.2.0-h77fa898_1 
+  libiconv           conda-forge/linux-64::libiconv-1.17-hd590300_2 
+  liblapack          conda-forge/linux-64::liblapack-3.9.0-25_linux64_openblas 
+  libnghttp2         conda-forge/linux-64::libnghttp2-1.64.0-h161d5f1_0 
+  libopenblas        conda-forge/linux-64::libopenblas-0.3.28-pthreads_h94d23a6_0 
+  libpng             conda-forge/linux-64::libpng-1.6.44-hadc24fc_0 
+  libsanitizer       conda-forge/linux-64::libsanitizer-14.2.0-h2a3dede_1 
+  libssh2            conda-forge/linux-64::libssh2-1.11.0-h0841786_0 
+  libstdcxx          conda-forge/linux-64::libstdcxx-14.2.0-hc0a3c3a_1 
+  libstdcxx-devel_l~ conda-forge/noarch::libstdcxx-devel_linux-64-14.2.0-h41c2201_101 
+  libstdcxx-ng       conda-forge/linux-64::libstdcxx-ng-14.2.0-h4852527_1 
+  libtiff            conda-forge/linux-64::libtiff-4.4.0-h82bc61c_5 
+  libuuid            conda-forge/linux-64::libuuid-2.38.1-h0b41bf4_0 
+  libwebp-base       conda-forge/linux-64::libwebp-base-1.4.0-hd590300_0 
+  libxcb             conda-forge/linux-64::libxcb-1.13-h7f98852_1004 
+  libxml2            conda-forge/linux-64::libxml2-2.10.3-hca2bb57_4 
+  libzlib            conda-forge/linux-64::libzlib-1.3.1-hb9d3cd8_2 
+  make               conda-forge/linux-64::make-4.4.1-hb9d3cd8_2 
+  ncurses            conda-forge/linux-64::ncurses-6.5-he02047a_1 
+  openssl            conda-forge/linux-64::openssl-3.3.2-hb9d3cd8_0 
+  pango              conda-forge/linux-64::pango-1.50.14-hd33c08f_0 
+  pcre2              conda-forge/linux-64::pcre2-10.40-hc3806b6_0 
+  pixman             conda-forge/linux-64::pixman-0.43.2-h59595ed_0 
+  pthread-stubs      conda-forge/linux-64::pthread-stubs-0.4-hb9d3cd8_1002 
+  r-base             conda-forge/linux-64::r-base-4.0.5-hb87df5d_8 
+  readline           conda-forge/linux-64::readline-8.2-h8228510_1 
+  sed                conda-forge/linux-64::sed-4.8-he412f7d_0 
+  sysroot_linux-64   conda-forge/noarch::sysroot_linux-64-2.17-h4a8ded7_17 
+  tk                 conda-forge/linux-64::tk-8.6.13-noxft_h4845f30_101 
+  tktable            conda-forge/linux-64::tktable-2.10-h8bc8fbc_6 
+  tzdata             conda-forge/noarch::tzdata-2024b-hc8b5060_0 
+  xorg-kbproto       conda-forge/linux-64::xorg-kbproto-1.0.7-hb9d3cd8_1003 
+  xorg-libice        conda-forge/linux-64::xorg-libice-1.0.10-h7f98852_0 
+  xorg-libsm         conda-forge/linux-64::xorg-libsm-1.2.3-hd9c2040_1000 
+  xorg-libx11        conda-forge/linux-64::xorg-libx11-1.8.4-h0b41bf4_0 
+  xorg-libxau        conda-forge/linux-64::xorg-libxau-1.0.11-hb9d3cd8_1 
+  xorg-libxdmcp      conda-forge/linux-64::xorg-libxdmcp-1.1.5-hb9d3cd8_0 
+  xorg-libxext       conda-forge/linux-64::xorg-libxext-1.3.4-h0b41bf4_2 
+  xorg-libxrender    conda-forge/linux-64::xorg-libxrender-0.9.10-h7f98852_1003 
+  xorg-libxt         conda-forge/linux-64::xorg-libxt-1.3.0-hd590300_0 
+  xorg-renderproto   conda-forge/linux-64::xorg-renderproto-0.11.1-hb9d3cd8_1003 
+  xorg-xextproto     conda-forge/linux-64::xorg-xextproto-7.3.0-hb9d3cd8_1004 
+  xorg-xproto        conda-forge/linux-64::xorg-xproto-7.0.31-hb9d3cd8_1008 
+  xz                 conda-forge/linux-64::xz-5.2.6-h166bdaf_0 
+  zstd               conda-forge/linux-64::zstd-1.5.6-ha6fb4c9_0 
+
+
+
+Downloading and Extracting Packages: ...working... done
+Preparing transaction: ...working... done
+Verifying transaction: ...working... done
+Executing transaction: ...working... done
+#
+# To activate this environment, use
+#
+#     $ conda activate r_deseq2
+#
+# To deactivate an active environment, use
+#
+#     $ conda deactivate
+
+Channels:
+ - bioconda
+ - conda-forge
+ - defaults
+Platform: linux-64
+Collecting package metadata (repodata.json): ...working... done
+Solving environment: ...working... /project/stuckert/apps/Anaconda3-2024.06-1/etc/profile.d/conda.sh: line 175: 1408720 Killed                  ( "$CONDA_EXE" $_CE_M $_CE_CONDA "$@" )
+slurmstepd: error: Detected 1 oom_kill event in StepId=1299393.batch. Some of the step tasks have been OOM Killed.
